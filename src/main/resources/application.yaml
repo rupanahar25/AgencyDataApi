@@ -1,5 +1,7 @@
 server:
   port: 8082
 agency-api:
-  base-url: http://localhost:8081
+  base-url: http://localhost:8083
   fetch-url: ${agency-api.base-url}/api/agency/all
+  username: admin
+  password: admin123
